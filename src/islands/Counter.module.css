@@ -1,0 +1,16 @@
+@layer components {
+	.Counter {
+		border: solid;
+		padding: var(--space-4);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: var(--space-4);
+	}
+	.Count {
+		font-variant-numeric: tabular-nums;
+		min-inline-size: 3ch;
+		text-align: center;
+		font-size: var(--font-size-big);
+	}
+}

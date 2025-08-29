@@ -1,0 +1,34 @@
+@import "./tokens.css" layer(base.tokens);
+@import "./reset.css" layer(base.reset);
+
+@layer base {
+	*:focus-visible {
+		outline-color: var(--fg);
+	}
+	*::selection {
+		background-color: var(--fg);
+		color: var(--bg);
+	}
+	html {
+		background-color: var(--bg);
+		color: var(--fg);
+	}
+	button {
+		background-color: var(--button-bg);
+		border: 1px solid var(--button-bg);
+		color: var(--button-fg);
+		display: inline-grid;
+		place-items: center;
+		gap: var(--space-1);
+		padding-block: var(--space-1);
+		padding-inline: var(--space-2);
+	}
+}
+
+@layer page {
+	main {
+		display: grid;
+		place-items: center;
+		margin-inline: auto;
+	}
+}

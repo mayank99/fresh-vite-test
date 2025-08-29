@@ -1,0 +1,17 @@
+*, ::before, ::after {
+	box-sizing: border-box;
+}
+*:focus-visible {
+	outline: 2px solid Highlight;
+	outline-offset: 3px;
+}
+html {
+	font-family: system-ui, sans-serif;
+}
+body {
+	margin: 0;
+}
+button {
+	font: inherit;
+	cursor: pointer;
+}
