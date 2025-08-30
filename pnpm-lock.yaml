@@ -8,15 +8,15 @@ importers:
 
   .:
     dependencies:
+      '@fresh/core':
+        specifier: jsr:^2.0.0-beta.1
+        version: '@jsr/fresh__core@2.0.0-beta.1'
       '@fresh/plugin-vite':
-        specifier: jsr:@fresh/plugin-vite@^0.9.6
+        specifier: jsr:^0.9.6
         version: '@jsr/fresh__plugin-vite@0.9.6(preact@10.27.1)'
       '@preact/signals':
         specifier: ^2.3.1
         version: 2.3.1(preact@10.27.1)
-      fresh:
-        specifier: jsr:@fresh/core@^2.0.0-beta.1
-        version: '@jsr/fresh__core@2.0.0-beta.1'
       preact:
         specifier: ^10.27.0
         version: 10.27.1
@@ -1183,7 +1183,7 @@ snapshots:
     dependencies:
       '@jsr/deno__loader': 0.3.5
       '@jsr/std__path': 1.1.2
-      esbuild: 0.25.7
+      esbuild: 0.25.9
 
   '@jsr/deno__loader@0.3.5': {}
 

@@ -1,4 +1,4 @@
-import { page } from "fresh";
+import { page } from "@fresh/core";
 import Counter from "../islands/Counter.tsx";
 import { define } from "../utils.ts";
 

@@ -1,8 +1,8 @@
 {
 	"type": "module",
 	"dependencies": {
-		"@fresh/plugin-vite": "jsr:@fresh/plugin-vite@^0.9.6",
-		"fresh": "jsr:@fresh/core@^2.0.0-beta.1",
+		"@fresh/plugin-vite": "jsr:^0.9.6",
+		"@fresh/core": "jsr:^2.0.0-beta.1",
 		"preact": "^10.27.0",
 		"@preact/signals": "^2.3.1",
 		"vite": "^7.1.3"
