@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"lib": [
+			"dom",
+			"dom.asynciterable"
+		],
+		"jsx": "react-jsx",
+		"jsxImportSource": "preact"
+	},
+	"exclude": [
+		"node_modules"
+	]
+}

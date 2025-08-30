@@ -1,17 +1,5 @@
 {
-	"nodeModulesDir": "auto",
-	"imports": {
-		"@fresh/plugin-vite": "jsr:@fresh/plugin-vite@^0.9.6",
-		"fresh": "jsr:@fresh/core@^2.0.0-beta.1",
-		"preact": "npm:preact@^10.27.0",
-		"@preact/signals": "npm:@preact/signals@^2.3.1",
-		"vite": "npm:vite@^7.1.3"
-	},
-	"tasks": {
-		"dev": "vite",
-		"build": "vite build",
-		"preview": "vite preview"
-	},
+	"nodeModulesDir": "manual",
 	"lint": {
 		"rules": {
 			"tags": [
@@ -26,23 +14,5 @@
 	},
 	"exclude": [
 		"**/_fresh/*"
-	],
-	"compilerOptions": {
-		"lib": [
-			"dom",
-			"dom.asynciterable",
-			"deno.ns",
-			"deno.unstable"
-		],
-		"jsx": "precompile",
-		"jsxImportSource": "preact",
-		"jsxPrecompileSkipElements": [
-			"a",
-			"img",
-			"source",
-			"body",
-			"html",
-			"head"
-		]
-	}
+	]
 }
